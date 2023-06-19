@@ -1,0 +1,86 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #1C1C1C;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    width: 400px;
+    font-size: 40px;
+    letter-spacing: -0.025em;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #D5D4D8;
+}
+
+.container {
+    width: 550px;
+    height: 550px;
+    background-color: #1F2937;
+    margin: 40px auto;
+    padding: 25px 30px;
+}
+
+.checkboxes {
+  text-align:center;
+}
+
+.checkboxes label{
+  margin: 0px 30px 0px 3px;
+}
+
+.divider {
+    height: 0px;
+    margin: 35px auto 25px;
+    border: 2px solid #2F3E53;    
+}
+
+.output {
+    width: 600px;
+}
+
+.passField {
+    width: 260px;
+    height: 40px;
+    color: #55F991;
+    text-align: center;
+    background-color: #273549;
+    border: 1px solid #273549;
+    border-radius: 6px;
+    margin: 8px 4px;
+    
+}
+
+.btn-generate {
+    padding: 9px 17px 9px 15px;
+    width: 223px;
+    height: 42px;
+    background-color: #10B981;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    margin: 40px 20px 10px;
+}
+
+#btn-text {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.pass-length input {
+    width: 30px;
+    height: 35px;
+    text-align: center;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    margin: 10px 3px 20px 20px;
+}
+
+.font-highlight {
+    color: #4ADF86;
+}

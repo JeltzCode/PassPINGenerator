@@ -1,0 +1,37 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="intro">
+                <h1>Generate a <span class="font-highlight">random password</span></h1>
+                <h2>Never use an insecure password or PIN again</h2>
+                <button class="btn-generate" id="game-button" onclick="buttonPress()"><span id="btn-text">Generate passwords</span></button>
+            </div> <!-- end div intro -->
+            <div class="input">
+                <div class="pass-length">
+                    <input type="text" class="pass-length" id="pass-length" placeholder="20">
+                    <label for="pass-length">change password or PIN length</label>
+                </div> <!-- end div pass-length -->
+                <div class="checkboxes">
+                    <span>
+                        <input type="checkbox" class="checkboxes" id="spec-char" name="spec-char" checked>
+                        <label for="spec-char" class="checkboxes">special characters</label>
+                        <input type="checkbox" class="checkboxes" id="choose-PIN" name="choose-PIN">
+                        <label for="choose-PIN" class="checkboxes" >generate PIN (numbers only)</label>
+                    </span>
+                </div> <!-- end div checkboxes -->
+            </div> <!-- end div input -->
+            <div class="divider">
+            </div>
+            <div class="output">
+                <input type="text" class="passField" id="pass-1" placeholder="..."></input>
+                <input type="text" class="passField" id="pass-2" placeholder="..."></input>
+                <input type="text" class="passField" id="pass-3" placeholder="..."></input>
+                <input type="text" class="passField" id="pass-4" placeholder="..."></input>
+            </div> <!-- end div ouput -->
+        </div> <!-- end div container -->
+        <script src="index.js"></script>
+    </body>
+</html>
